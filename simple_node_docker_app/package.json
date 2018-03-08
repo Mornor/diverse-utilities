@@ -1,0 +1,14 @@
+{
+  "name": "docker_AOE_app",
+  "version": "0.0.1",
+  "description": "AOE Dockerized app",
+  "author": "Celien Nanson <cesliens@gmail.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "pg-promise": "7.3.2"
+  }
+}
