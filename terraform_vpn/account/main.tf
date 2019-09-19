@@ -20,7 +20,10 @@ module "vpc" {
   private_subnet_cidr_block = var.private_subnet_cidr_block
 }
 
-
 module "vpn" {
-  source = "../modules/vpn"
+  source              = "../modules/vpn"
+  main_vpc_id         = module.vpc.main_vpc_id 
+  cgw_asn             = var.cgw_asn
+  cgw_routable_ip     = var.cgw_routable_ip
+  vpc_route_table_id  = module.vpc.route_table_id
 }
