@@ -1,5 +1,5 @@
 ## Create Terraform structure
-This code create a Terraform structure I ususally use during my projects. <br />
+This code create a Terraform structure I usually use during my projects. <br />
 Fill up the `config.json` file and execute the Python code: `python3 create_templates.py`. <br />
 For example, the following config file
 ```
