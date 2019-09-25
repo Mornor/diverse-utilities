@@ -1,0 +1,13 @@
+{
+  "accounts": [
+    "dev", 
+    "shared_services",
+    "prod", 
+    "qa"
+  ], 
+  "tf_files": [
+    "main.tf", 
+    "inputs.tf", 
+    "outputs.tf"
+  ]
+}
