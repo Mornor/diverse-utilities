@@ -17,7 +17,7 @@ For example, the following config file
   ]
 }
 ```
-Will produce the following structure: 
+Will produce the following structure
 ```
 ├── accounts
 │   ├── dev
