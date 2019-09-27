@@ -1,6 +1,6 @@
 ## Create Terraform structure
 This code create a Terraform structure I usually use during my projects. <br />
-Fill up the `config.json` file and execute either the Python or the Bash code (note: also possible to execute Pyton with Docker, see last part below). 
+Fill up the `config.json` file and execute either the Python or the Bash code (note: it is also possible to execute Pyton with Docker, see last part below). <br />
 For example, the following config file
 ```
 {
